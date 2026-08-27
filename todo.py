@@ -1,7 +1,4 @@
 import sys
-print(sys.argv)
-
-
 import json
 import os
 
@@ -35,3 +32,6 @@ elif command == "list":
     for todo in todos:
         status = "✓" if todo["done"] else " "
         print(f"[{status}] {todo['id']}. {todo['text']}")
+
+
+        
